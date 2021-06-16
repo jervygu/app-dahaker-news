@@ -34,6 +34,7 @@
 		044E52D226799AA0008E23CE /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		044E52D626799BF0008E23CE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		044E52DB26799C6E008E23CE /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		044E52E02679A188008E23CE /* Dahakers News.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Dahakers News.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 		044E52B12679991A008E23CE /* Dahakers News */ = {
 			isa = PBXGroup;
 			children = (
+				044E52E02679A188008E23CE /* Dahakers News.entitlements */,
 				044E52B22679991A008E23CE /* AppDelegate.swift */,
 				044E52B42679991A008E23CE /* SceneDelegate.swift */,
 				044E52CD26799A5E008E23CE /* Managers */,
@@ -330,17 +332,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Dahakers News/Dahakers News.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Dahakers News/Preview Content\"";
 				DEVELOPMENT_TEAM = 7ZBHT89JPN;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Dahakers News/Info.plist";
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jervygu.Dahakers-News";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -351,17 +356,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Dahakers News/Dahakers News.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Dahakers News/Preview Content\"";
 				DEVELOPMENT_TEAM = 7ZBHT89JPN;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Dahakers News/Info.plist";
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jervygu.Dahakers-News";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

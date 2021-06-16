@@ -24,7 +24,8 @@ struct ContentView: View {
             .navigationBarTitle("Dahaker News")
         }
         .onAppear {
-            self.networkManager.fetchData()
+//            self.networkManager.fetchData()
+            networkManager.fetchData()
         }
     }
 }
