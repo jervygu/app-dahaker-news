@@ -8,9 +8,9 @@ A beginners swift project, see most popular stories in Hacker News
 - See the latest news based on its popularity.
 
 
-| [Lights](https://github.com/faiface/pixel-examples/blob/master/lights) | [Platformer](https://github.com/faiface/pixel-examples/blob/master/platformer) |
+| [Home screen]() | [News Content]() |
 | --- | --- |
-| ![Lights](https://github.com/jervygu/app-dahaker-news/blob/master/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2012%20-%202021-06-16%20at%2011.20.28_iphone12black_portrait_a.png) | ![Platformer](https://github.com/jervygu/app-dahaker-news/blob/master/screenshots/Screen%20Shot%202021-06-16%20at%2012.00.24%20PM_macbookpro13_front.png) |
+| ![Home screen](https://github.com/jervygu/app-dahaker-news/blob/master/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2012%20-%202021-06-16%20at%2011.20.28_iphone12black_portrait_a.png) | ![News Content](https://github.com/jervygu/app-dahaker-news/blob/master/screenshots/Screen%20Shot%202021-06-16%20at%2012.00.24%20PM_macbookpro13_front.png) |
 
 
 ### Home screen
@@ -18,7 +18,7 @@ A beginners swift project, see most popular stories in Hacker News
 
 
 
-### Web page
+### News Content
 
 ![Platformer](https://github.com/jervygu/app-dahaker-news/blob/master/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2012%20-%202021-06-16%20at%2011.20.49_iphone12black_portrait_b.png) |
 
@@ -27,5 +27,4 @@ A beginners swift project, see most popular stories in Hacker News
 ### Preview in Mac
 
 
-![GitHub Logo](https://github.com/jervygu/app-dahaker-news/blob/master/screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2012%20-%202021-06-16%20at%2011.20.49_iphone12black_portrait_b.png)
-Format: ![Alt Text](url)
+![GitHub Logo](https://github.com/jervygu/app-dahaker-news/blob/master/screenshots/Screen%20Shot%202021-06-16%20at%2012.00.24%20PM_macbookpro13_front.png)
